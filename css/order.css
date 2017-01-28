@@ -1,0 +1,269 @@
+@CHARSET "ISO-8859-1";
+
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 14px;
+	word-spacing: 3px;
+	line-height: 20px;
+}
+
+#container {
+	font-family: Arial, Helvetica, sans-serif;
+	min-height: 100%;
+	width: 950px;
+	/*    background-color:#FFFFFF; */
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EEEEEE;
+}
+
+#header {
+	top: 10px;
+	/* 	margin-top:10px; */
+	background: #7B97C1; /*#8CA2E6;*/
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 30px;
+	border-radius: 5px;
+}
+
+#body {
+	border-radius: 5px;
+	color: #555555;
+	min-height: 100%;
+	/* 	height:auto; */
+	margin-top: 10px;
+	/*    	padding:10px; */
+	background-color: #EEEEEE;
+	/*    margin-bottom:80px; */
+	padding-bottom: 70px; /* Height of the footer */
+}
+
+#content {
+	height: 100%;
+	width: 700px;
+	background-color: #EEEEEE;
+	color: #333333;
+	/* 	left:200px; */
+	margin-right: auto;
+	margin-left: 230px;
+	margin-top: 15px;
+	border: thin;
+	text-align: left;
+	padding-top: 10px;
+}
+
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom: 10px;
+	width: 950px;
+	height: 40px; /* Height of the footer */
+	background: #7B97C1; /*#8CA2E6;*/
+	text-align: center;
+	border-radius: 5px;
+}
+
+#menubar {
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	background-color: #777777;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+	min-height: 25px;
+	word-spacing: 5px;
+	line-height: 25px;
+	border-radius: 5px;
+	background-image: url("../images/menu.jpg");
+	background-repeat: repeat-x;
+}
+
+#menubartext {
+	float: left;
+}
+
+#alpha {
+	height: auto;
+	width: 700px;
+	background-color: #EEEEEE;
+	color: #555555;
+	margin-left: 230px;
+	text-align: left;
+	padding-top: 10px;
+	letter-spacing: 5px;
+}
+
+#sidebarcontainer {
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 170px;
+	width: 170px;
+	float: Left;
+	text-align: center;
+	line-height: 25px;
+	float: left;
+}
+
+#center {
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 300px;
+}
+
+.sidebardrop {
+	color: #777777;
+	display: block;
+}
+
+.sidebardrop li {
+	list-style: none;
+	background-image: url("../images/menu.jpg");
+	background-color: #555555;
+	background-repeat: repeat-x;
+}
+
+#sidebar {
+	color: #777777;
+	display: block;
+}
+
+#sidebar li {
+	list-style: none;
+	background-image: url("../images/menu.jpg");
+	background-color: #555555;
+	background-repeat: repeat-x;
+}
+
+#dropmenu {
+	margin-top: 0px;
+	color: black;
+	display: none;
+}
+
+#dropmenu li {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	list-style: none;
+	background-color: white;
+	background-image: none;
+}
+
+#dropmenu li:HOVER {
+	background-color: #CCCCCC;
+	color: black;
+	text-decoration: none;
+}
+
+#mytable {
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+#mytable th {
+	color: white;
+	font-size: 12px;
+	border-right: 1px solid #000 /*#C1DAD7*/;
+	border-bottom: 1px solid #000 /*#C1DAD7*/;
+	border-top: 1px solid #000 /*#C1DAD7*/;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 3px 3px 3px 5px;
+	/* 	background-color: #C18282; */
+	background-color: navy;
+}
+
+#mytable td {
+	font-size: 12px;
+	border-right: 1px solid #000 /*#C1DAD7*/;
+	border-bottom: 1px solid #000 /*#C1DAD7*/;
+	background: white;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+}
+
+.tableheader {
+	
+}
+
+#tablecontent {
+	display: none;
+	left: 20px;
+}
+
+/* design for links in side bar */
+a.sidebarlink:LINK,a.sidebarlink:FOCUS {
+	color: #DDDDDD;
+	text-decoration: none;
+}
+
+a.sidebarlink:HOVER,a.sidebarlink:ACTIVE,a.sidebarlink:AFTER,a.sidebarlink:BEFORE
+	{
+	color: white;
+	text-decoration: none;
+}
+
+a.sidebarlink:VISITED {
+	color: #DDDDDD;
+	text-decoration: none;
+}
+
+/* Alpha display links*/
+a.alphabar:LINK,a.alphabar:FOCUS {
+	color: black;
+	text-decoration: none;
+}
+
+a.alphabar:HOVER,a.alphabar:ACTIVE,a.alphabar:AFTER,a.alphabar:BEFORE {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+a.alphabar:VISITED {
+	color: black;
+	text-decoration: none;
+}
+/* design for links in drop menu in sidebar*/
+a.dropmenubar:LINK,a.dropmenubar:FOCUS {
+	color: black;
+	text-decoration: none;
+}
+
+a.dropmenubar:ACTIVE,a.dropmenubar:AFTER,a.dropmenubar:BEFORE {
+	color: black;
+	text-decoration: none;
+}
+
+a.dropmenubar:VISITED {
+	color: black;
+	text-decoration: none;
+}
+
+/* design for links in menubar */
+a.menubar:LINK,a.menubar:FOCUS {
+	color: white;
+	text-decoration: none;
+}
+
+a.menubar:HOVER,a.menubar:ACTIVE {
+	background-color: #AAAAAA;
+	color: white;
+	text-decoration: none;
+}
+
+a.menubar:VISITED {
+	color: white;
+	text-decoration: none;
+}

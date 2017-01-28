@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN" "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+<web-app>
+	<display-name>Clinic_Medicure</display-name>
+	<servlet>
+
+		<servlet-name>DoctorInformation</servlet-name>
+		<display-name>DoctorInformation</display-name>
+		<description></description>
+		<servlet-class>com.Visitor.DoctorInformation</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DoctorInformation1</servlet-name>
+
+		<display-name>DoctorInformation1</display-name>
+		<description></description>
+		<servlet-class>com.Visitor.DoctorInformation1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DoctorInformation</servlet-name>
+		<url-pattern>/DoctorInformation</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DoctorInformation1</servlet-name>
+		<url-pattern>/DoctorInformation1</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<taglib>
+
+		<taglib-uri>/WebContent/MyTag.tld</taglib-uri>
+		<taglib-location>MyTag.tld</taglib-location>
+
+	</taglib>
+</web-app>

@@ -1,0 +1,68 @@
+@CHARSET "ISO-8859-1";
+
+.example_menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.example_menu ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu5 li,.example_menu li {
+	background-image: none;
+	margin: 0;
+	padding: 0;
+}
+
+.example_menu a {
+	color: #DDDDDD;
+	cursor: pointer;
+	display: block;
+	margin-left: 0;
+}
+
+.example_menu ul a {
+	display: list-item;
+}
+
+.example_menu li a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.example_menu ul a {
+	border-top: 2px solid #fff;
+	color: #000;
+	/* display: block; */
+	font-weight: normal;
+	margin-left: 25px;
+	width: 120px;
+}
+
+.example_menu ul a:link {
+	font-weight: bold;
+	background-image: none;
+	text-decoration: none;
+}
+
+.example_menu ul a:hover {
+	background: #f5f5f5;
+	text-decoration: none;
+}
+
+.example_menu li a {
+	background-image: url("../images/menu.jpg");
+	background-repeat: repeat-x;
+}
+
+.example_menu ul a:VISITED {
+	color: black;
+	text-decoration: none;
+	background-image: none;
+}
